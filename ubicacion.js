@@ -615,7 +615,7 @@ COSTO DE DOMICILIO: $${formatNumber(costoDomicilio)}
 ${googleMapsLink}`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    window.open(`https://wa.me/3022666530?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/+573215104877?text=${encodedMessage}`, '_blank');
 
     // Mostrar el modal tras finalizar la compra
     mostrarModalFin();

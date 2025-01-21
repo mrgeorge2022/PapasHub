@@ -406,7 +406,7 @@ function finalizarCompra() {
     mensaje += `*TOTAL A PAGAR: $${formatNumber(totalProductos)}*\n`;
     mensaje += `*MÉTODO DE PAGO:* ${metodoPago}\n\n`; 
     mensaje += "*Ubicación de la tienda:*\n";
-    mensaje += "https://bit.ly/4f2GU5I\n";
+    //mensaje += "https://bit.ly/4f2GU5I\n";
 
     // CODIFICAR EL MENSAJE Y ABRIR WHATSAPP
     const encodedMessage = encodeURIComponent(mensaje);
